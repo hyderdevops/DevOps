@@ -8,7 +8,7 @@ ipv4 standard is 4 bytes
 1 byte is equal to 8 bits
 example of my ip address is 192.168.135.215 
 1 byte          2nd byte      3rd byte      4th byte
----------     | --------    | --------    | --------
+---------     | --------    | --------    | --------   total 32bits
 2^7,2^6,2^5,2^4,2^3,2^2,2^1,2^0
 128, 64, 32, 16, 8,  4,  2,   1
 11000000  |  10101000   | 10000111   |  11000111
@@ -18,3 +18,14 @@ Subnets:-
 dividing a network into parts is called subnet, advantage of subnet is to get security, privacy and proper isolation.
 2 subnets 1)private(dont have access to internet) 2)public (access to internet)
 internet-->aws---->route tables---->igw---->acess to internet
+cidr 
+172.158.3.5/16 means 32-16= 16 ----> 2^16 ---->256*256=65536 this is the number of ip address of cidr
+
+----------------------------------------------------------------------------------------
+Ports:-
+whenever we provide ip adderess to connet to website we provide ports like :80,:443,:8080
+to bind an application we use port with ipaddress, using port we can distinguish the request has to go to which application.
+---------------------------------------------------------------------------------------
+OSI MODEL:-
+http, tcp, L1-L7
+
