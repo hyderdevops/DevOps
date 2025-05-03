@@ -15,3 +15,6 @@ example of my ip address is 192.168.135.215
  192             168         135            215
 ------------------------------------------------------------------------------------
 Subnets:-
+dividing a network into parts is called subnet, advantage of subnet is to get security, privacy and proper isolation.
+2 subnets 1)private(dont have access to internet) 2)public (access to internet)
+internet-->aws---->route tables---->igw---->acess to internet
