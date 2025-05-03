@@ -1,0 +1,17 @@
+ip adderess,subnet,cidr range,osi model
+
+How our mobile device connect to a website like google.com over the internet, how does the traffic flow from my device to website and how this website receives req and send response back to us 
+Networking fundamentals are very important to understand organization infrastrucutre or the application function
+IP Address:-
+ip address is used to generate a unique address to a device connected to your network 
+ipv4 standard is 4 bytes 
+1 byte is equal to 8 bits
+example of my ip address is 192.168.135.215 
+1 byte          2nd byte      3rd byte      4th byte
+---------     | --------    | --------    | --------
+2^7,2^6,2^5,2^4,2^3,2^2,2^1,2^0
+128, 64, 32, 16, 8,  4,  2,   1
+11000000  |  10101000   | 10000111   |  11000111
+ 192             168         135            215
+------------------------------------------------------------------------------------
+Subnets:-
