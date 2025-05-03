@@ -1,0 +1,47 @@
+DATE( devops, aws or azure , terraform and python )
+------------------------------------------------------------------------------------
+DEVOPS:-
+1)what is devops and why devops
+2)SDLC
+3)Linux use (networking osi models tcp handshake etc)
+4)shell commands (bash)
+5)shell scripts
+6)Git(Distributed version controlled system)
+7)Gitlab or Github
+8)ci/cd different stages (jenkins)
+9)Ansible
+10)Terraform
+11)Docker(containerzation) difference between vm,vs,c,network,volumes,reduce docker image size, write docker file, how one cont talk to another cont how to run multiple containers using docker compose etc
+12)Kubernetes pod, deployment, service, networking of k8s, service discovery of k8s,ingress, different kind of services and deploy a simple k8s project. 
+
+---------------------------------------------------------------------------------
+AWS OR AZURE:-
+1)public cloud and its difference from private cloud
+2)IAM (autorization&authentication, users, groups, policies)
+3)networking (subnet (private & public),cidr,vpc,sg,network secure, routing rules, DNS)
+4)compute (create a vm and deploy app in vm)
+5)Load Balancing (different LB, L7,L4)
+6)Storage (ebs,efs,s3,nfs)
+7)ci/cd (deploy demo cicd project)
+8)kubernetes (EKS,AKS,GKE) deploy 3-tier app in k8s cluster
+9)serverless
+10)cost optimization
+11)security and compalince
+12)Monitor 
+-------------------------------------------------------------------------------------
+Terraform(IAC):-
+1)IAC,BASIC of Terraform
+2)Providers,multiple providers in same project
+3)plan,init,apply, delete
+4)state file and its implementation
+5)provisioners 
+6)varaiable structures input/output variables
+7)modules
+8)different level of environments
+9)implement a project using terraform and secrets management using harshicrop valut
+
+--------------------------------------------------------------------------------------------
+PYTHON:-
+1)how do you use pythin as devops engineer, use cases of python and how to implement 
+
+
