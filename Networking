@@ -30,4 +30,12 @@ OSI MODEL:-
 http, tcp, L1-L7
 different components and diff layers involves in send request and getting response over the internet--->means transfer of data 
 OSI Model is one of the popular model which helps u to understand the journey of data across the internet via different layers in L7 layers to L1 layers
+before we understand the journey of data, even before your browser initiates a request to the google server 2 things happens even before osi model comes into picture
+1)DNS Resolution:- browser always check that the for ex:- www.google.com(8.8.8.8) is mapped to any paticular ip address, first check it in the local cache if its not available 
+in the local cache the goes to the internet provider ISP for ip mapping, if this ip address is validated then moved to 2nd step tcp handshake.
+2)Tcp Handshake:- If client is ready to send request and the server is also ready to accept then the handshake is done if the server denies then the handshake is not done.
+its called 3 way hand shake 1)client say hi (synk) to server 2)server reply saying hi (synk ack) 3)client say ack
+
+if dns resolution and tcp handshake is done then only data request initiation starts 
+
 
