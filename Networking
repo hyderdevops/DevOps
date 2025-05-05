@@ -38,4 +38,10 @@ its called 3 way hand shake 1)client say hi (synk) to server 2)server reply sayi
 
 if dns resolution and tcp handshake is done then only data request initiation starts 
 
+http/https://google.com
+ftp://goolge.com
+
+L7----> http/https/ftp request  ---> application layer
+L6----> encryption/formatting   ---> presentation Layer
+L5----> session 
 
