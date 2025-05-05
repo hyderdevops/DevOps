@@ -28,4 +28,6 @@ to bind an application we use port with ipaddress, using port we can distinguish
 ---------------------------------------------------------------------------------------
 OSI MODEL:-
 http, tcp, L1-L7
+different components and diff layers involves in send request and getting response over the internet--->means transfer of data 
+OSI Model is one of the popular model which helps u to understand the journey of data across the internet via different layers in L7 layers to L1 layers
 
