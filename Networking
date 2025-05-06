@@ -43,5 +43,12 @@ ftp://goolge.com
 
 L7----> http/https/ftp request  ---> application layer
 L6----> encryption/formatting   ---> presentation Layer
-L5----> session 
+L5----> session ---->session layer which doesn't ask for authentication once after login.
+L7, L6 & L5 are taken care by browser itself 
+L4----> segmentation --->tcp/udp(protocol is identified here) --->transport layer
+L3--- > sending data by router occurs in this stage, routers decides the path to transfer packet from sorce ip to destination ip in a shortest path --->networking layer
+L2----> Data link layer, sends data in the form of frames(mac) if the data is transferd form switches not router
+L1----> routers / swicthers are connected to optical cables and optical cables understand electronic signals --->physical layer
 
+
+L7,L6,L5 all are combined in Tcp/Ip Model as all these layers are are browser level only.
