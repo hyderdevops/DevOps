@@ -50,5 +50,11 @@ L3--- > sending data by router occurs in this stage, routers decides the path to
 L2----> Data link layer, sends data in the form of frames(mac) if the data is transferd form switches not router
 L1----> routers / swicthers are connected to optical cables and optical cables understand electronic signals --->physical layer
 
-
+TCP/IP Model:-
 L7,L6,L5 all are combined in Tcp/Ip Model as all these layers are are browser level only.
+
+VPC:-
+virtual private cloud provides a security to our resources 
+devops engineer creates a vpc which has 2 subnets public and private subnets
+request--->IGW(internet gateway)--->public subnet(common subnet)--->LB--->route table(router)--->Security Group(SG)--->private subnet app reached
+
