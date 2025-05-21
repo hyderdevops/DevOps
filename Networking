@@ -56,5 +56,11 @@ L7,L6,L5 all are combined in Tcp/Ip Model as all these layers are are browser le
 VPC:-
 virtual private cloud provides a security to our resources 
 devops engineer creates a vpc which has 2 subnets public and private subnets
-request--->IGW(internet gateway)--->public subnet(common subnet)--->LB--->route table(router)--->Security Group(SG)--->private subnet app reached
+request--->IGW(internet gateway)--->public subnet(common subnet)--->LB--->route table(router)--->NACL(NACL is Automation for SG)/Security Group(SG)--->private subnet app reached
+
+NAT:-
+If application which is in private subnet wants to download some package or something from internet its a bad practise to expose our application IP to internet 
+NAT translates private IP addresses (used in local network) to a public IP address (used on the internet) and vice versa
+its hide internal ip's from the outside world and enables multiple devices to connect to the internet using one ip.
+
 
