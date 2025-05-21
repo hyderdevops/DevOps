@@ -63,4 +63,28 @@ If application which is in private subnet wants to download some package or some
 NAT translates private IP addresses (used in local network) to a public IP address (used on the internet) and vice versa
 its hide internal ip's from the outside world and enables multiple devices to connect to the internet using one ip.
 
+vpc has two subnet 1)public 2)private in two AZ 
+each public subnet has NAT gateway(to mask private subnet ip) and a LB Node.
+the app or server are running in the private subnet are launched or terminated by auto scaling group and recieves request/traffic through LB 
+the servers can connect to internet through NAT gateway
+
+Auto Sacling Group:-
+create my 2 replicas or more replicas of instances if i get more traffic 
+for ex:- an instance or server can takes only 100 request and i get 300 request then auto scaling group can create 2 more instances to serve the request thus total 3 instances 
+can servres request now and similarly it can delete instances if not required.
+
+Load Balancer:-
+balance the request depending upon the request and server configuration 
+llly can do path base routing, host base routing, etc
+
+Baston server or jump server:-
+a publicly access server has an public ip 
+typically placed in public subnet
+used to ssh or rdp into private server indirectly
+acts as jump box to prevent direct access to private subnet instances 
+
+
+
+
+
 
